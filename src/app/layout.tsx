@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navigation from "./components/Navigation";
 // import AnimatedBackground from "./components/AnimatedBackground";
-import ClientOnly from "./components/ClientOnly";
+// import ClientOnly from "./components/ClientOnly";
 
 // ✅ Import Google font
 import { Plus_Jakarta_Sans } from "next/font/google";

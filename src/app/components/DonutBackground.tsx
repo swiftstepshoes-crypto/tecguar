@@ -133,6 +133,8 @@ interface DonutBackgroundProps {
   children: React.ReactNode;
   density?: 'low' | 'medium' | 'high';
   className?: string;
+
+  style?: React.CSSProperties; // change by me 
 }
 
 const DonutBackground: React.FC<DonutBackgroundProps> = ({ 
